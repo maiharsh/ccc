@@ -78,10 +78,6 @@ Steps:
 - Practical application of optimization problems
 - Difference between greedy and optimal solutions
 
-## Author
+by
 Harsh Vardhan
-
----
-
-## Conclusion
-This project successfully demonstrates how greedy algorithms can be applied to real-world problems like budget optimization, providing fast and efficient solutions.
+AP24110010192
