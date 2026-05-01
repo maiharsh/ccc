@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CCC Project - Greedy Shopping Optimizer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>CCC Project</h1>
+      <h2>Smart Shopping Cart Optimizer (Greedy Algorithm)</h2>
+
+      <section class="controls">
+        <label for="budget">Enter Budget (Rs):</label>
+        <input id="budget" type="number" min="1" value="500" />
+        <button id="optimizeBtn">Optimize My Cart</button>
+      </section>
+
+      <section>
+        <h3>Available Items</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Price</th>
+              <th>Utility</th>
+              <th>Utility/Price</th>
+            </tr>
+          </thead>
+          <tbody id="itemsBody"></tbody>
+        </table>
+      </section>
+
+      <section class="results">
+        <h3>Selection Steps</h3>
+        <ul id="steps"></ul>
+
+        <h3>Final Cart</h3>
+        <ul id="cart"></ul>
+
+        <p><strong>Total Spent:</strong> <span id="spent">0</span></p>
+        <p><strong>Total Utility:</strong> <span id="utility">0</span></p>
+        <p><strong>Remaining Budget:</strong> <span id="remaining">0</span></p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
